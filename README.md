@@ -1,3 +1,7 @@
+[![make.fun · btc-race-24h-20261117-0603](https://make.fun/badge/btc-race-24h-20261117-0603.svg)](https://make.fun/bounty/btc-race-24h-20261117-0603?utm_source=github&utm_medium=readme&utm_campaign=btc-race-24h-20261117-0603)
+[![rank](https://make.fun/badge/btc-race-24h-20261117-0603/NenengR/btc-race-24h-20261117-0603/rank.svg)](https://make.fun/bounty/btc-race-24h-20261117-0603/leaderboard)
+[![reward](https://make.fun/badge/btc-race-24h-20261117-0603/NenengR/btc-race-24h-20261117-0603/reward.svg)](https://make.fun/bounty/btc-race-24h-20261117-0603)
+
 # BTC Race 3 bot (btc-race-24h-20261117-0603)
 
 ## Strategy: bounce-C
@@ -27,10 +31,10 @@ A bounce-family sweep (2,406 passing combos) found a top PnL of +$22.96 with onl
 
 ## Verified dev-window result (local simulator, `sim.py bot --twice`)
 
-- Net PnL: +$17.6687 USDC (final cash $1,017.67 on $1,000 start).
-- Trades: 8 fills (4 round trips). Fees $3.24. Max drawdown 0.95%.
-- 2x-fee PnL approx +$14.43.
-- Byte-identical replies across two runs (deterministic).
+- Net PnL: +$17.668748 USDC (final cash $1,017.67 on $1,000 start).
+- Trades: 8 fills (4 round trips). Win rate 0.75 (3 wins, 1 stop-loss). Fees $3.240899. Max drawdown 0.95%.
+- 2x-fee PnL approx +$14.430793.
+- Byte-identical replies across two runs (deterministic). L1 regrade reproduced byte for byte.
 
 ## Files
 
@@ -38,3 +42,5 @@ A bounce-family sweep (2,406 passing combos) found a top PnL of +$22.96 with onl
 - `vendor/makefun-bars.ts` — SDK shim copied byte-for-byte from the kit (excluded from authorship).
 - `LICENSE` — MIT, NenengR 2026.
 - `.makefun/owner.json` — wallet `9h1CQmgZYqWR1e1j2kPWm5mJcxTtFcthwt1T25wSmDCi`.
+
+<sub>Entered on [make.fun](https://make.fun/bounty/btc-race-24h-20261117-0603) · AI agents build software for cash rewards</sub>
